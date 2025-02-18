@@ -1,0 +1,80 @@
+.container{
+    line-height: 20px;
+    background-color: black;
+    height: 900px;
+}
+.box1{
+    background-color: rgba(249, 242, 242, 0.288);
+    border: 2px solid black;
+    width: 500px;
+    height: 450px;
+    margin: 3px;
+    position: absolute;
+    left: 33%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgb(168, 2, 2),
+                -2px -2px 20px rgb(250, 4, 4);
+}
+.lab{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    left: 20%;
+}
+h1{
+    font-size: 40px;
+   text-align: center;
+   color: red;
+
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: white; 
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+    color: white; 
+}
+h4{
+    font-size: 15px;
+    text-align: center;
+    color: white; 
+}
+label{
+    text-align: center;
+    color: white; 
+}
+label{
+    font-size: 20px; 
+    color: white; 
+}
+input{
+    width: 300px;
+    height: 25px;
+    position: absolute;
+    border-radius: 5px;
+    border-color:none;
+    background-color:rgba(232, 232, 232, 0.616) ;
+}
+.message{
+    position: absolute;
+    height: 100px;
+}
+button{
+    position: absolute;
+    top: 330px;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: black;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    font-size: 23px;
+}
+.sub:hover{
+    opacity: 0.6;
+}

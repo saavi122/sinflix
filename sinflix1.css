@@ -1,0 +1,120 @@
+body{
+    background: url("netflix1.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 870px;
+    background-color: black;
+    opacity: 0.9;
+}
+.container{
+    color: red;
+    
+    font-size: 20px;
+    height: 1000px;
+}
+h1::first-letter{
+    font-size: 90px;
+    font-style: italic;
+
+}
+h1{
+    margin-top: 0;
+    margin-left:200px ;
+    text-align: left;
+    color: red;
+    font-size: 50px;
+    text-shadow: 5px 5px 7px black;
+}
+.box1{
+    width: 400px;
+    background-color: black;
+    position: absolute;
+    left: 550px;
+    border-color: red;
+    box-shadow: 4px 4px 20px rgb(155, 1, 1),
+                -4px 4px 20px red;
+                opacity: 0.85;
+                border-radius:25px ;
+                top: 100px;
+                text-align: center;
+}
+h2{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2::first-letter{
+    font-size: 40px;
+}
+.box{
+    width: 300px;
+    padding: 5px;
+    font-size: large;
+    border-radius: 5px;
+    left: 50%;
+    border: 0;
+    color: black;
+    
+}
+#signin{
+    background-color: red;
+    color: #fff;
+    width:290px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: large;
+    border: 0;
+}
+h4{
+    color: #fff;
+}
+button{
+    width:275px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 0;
+}
+
+    a{
+        text-decoration: none;
+    }
+    a:link{
+        color: white;
+    }
+    a:hover{
+        color: blue;
+        text-decoration: underline;
+    }
+    a:active{
+        color: white;
+    }
+    a:visited{
+        color:white;
+    }
+    h5{
+        color: #fff;
+    }
+    .help{
+        color: #fff;
+    }
+    .link{
+        word-spacing: 60px;
+    }
+    input{
+        background-color: rgba(153, 152, 152, 0.543);
+    }
+    input::placeholder{
+        color: #fff;
+    }
+    #signin:hover{
+        background-color: indianred;
+    }
+    #code{
+        color: black;
+    }
+    #code:hover{
+        background-color: red;
+    }
+
+
+
